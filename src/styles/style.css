@@ -3,7 +3,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 header
@@ -17,7 +16,6 @@ header
 
 .main-container
 {
-    width: 40vw;
     border: 10px solid #0081a7;
     border-style: double;
     padding: 20px;
@@ -84,4 +82,35 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+@media screen and (max-width: 480px) {
+    .main-container
+    {
+        border: none;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-element
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 450px
+    }
+
+    .general-btn
+    {
+        width: 150px;
+    }
+
+    .input-box, .display-box, .display-box-label
+    {
+        width: 50vw;
+        font-size: 1.15rem;
+    }
 }
