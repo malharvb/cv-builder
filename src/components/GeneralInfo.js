@@ -43,7 +43,7 @@ class GeneralInfo extends Component {
             <input
               type="text"
               className="input-box"
-              placeholder="Malhar"
+              placeholder="John"
               id="firstName"
               value={firstName}
               onChange={this.handleChange}
@@ -55,7 +55,7 @@ class GeneralInfo extends Component {
             <input
               type="text"
               className="input-box"
-              placeholder="Kajale"
+              placeholder="Doe"
               id="lastName"
               value={lastName}
               onChange={this.handleChange}

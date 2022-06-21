@@ -1,22 +1,36 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 header
 {
     text-align: center;
     font-size: 3rem;
     margin: 30px 0;
+    color: #023e8a;
+    text-decoration: underline;
 }
 
 .main-container
 {
+    width: 40vw;
+    border: 10px solid #0081a7;
+    border-style: double;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .sub-heading
 {
     font-size: 1.75rem;
     text-decoration: underline;
+    color: #0077b6;
 }
 
 .sub-form
